@@ -27,6 +27,7 @@ module ThinkingSphinx
   # html remove elements::  ''
   # searchd_binary_name::   searchd
   # indexer_binary_name::   indexer
+  # sql_query_pre::         [] add more like this ['set work_mem=32768;'] (must be an array!)
   #
   # If you want to change these settings, create a YAML file at
   # config/sphinx.yml with settings for each environment, in a similar
